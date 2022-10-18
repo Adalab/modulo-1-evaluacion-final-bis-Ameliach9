@@ -21,6 +21,7 @@
 
 }
 .link{
+  font-family: $font-text;
   text-decoration: none;
   color: $color-grey;
   padding: 10px 10px 13px 10px;
@@ -29,7 +30,7 @@
 }
   
 .link:hover {
-  color: $color-green;   
+  color: $color-green;  
   text-decoration: underline;
   transition-delay:1s;
 }
