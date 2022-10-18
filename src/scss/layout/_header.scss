@@ -1,5 +1,35 @@
-.page__header {
+.header{
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  position: fixed;
+  background-color: $color-white;
+  width: 100vw;
+  padding-bottom: 13px;
+}
+.menu{
+  margin-top: 10px;
+}
+.menu ul{
+  display: flex;
+  list-style: none;
+}
+.logo{
+  width: 154.5px;
+  padding-top: 10px;
+
+}
+.link{
+  text-decoration: none;
+  color: $color-grey;
+  padding: 10px 10px 13px 10px;
+  text-transform: uppercase;
+
+}
+  
+.link:hover {
+  color: $color-green;   
+  text-decoration: underline;
+  transition-delay:1s;
 }
