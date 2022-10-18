@@ -49,11 +49,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
-  padding-left: 20px;
+  /*background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;*/
   display: flex; }
 
 .hero-title {
+  padding-left: 20px;
   font-size: 30px;
   color: white;
   font-family: "Rubik", sans-serif;
