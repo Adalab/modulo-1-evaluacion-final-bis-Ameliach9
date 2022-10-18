@@ -12,29 +12,24 @@
   background-color: white;
   width: 100vw;
   padding-bottom: 13px; }
-
-.menu {
-  margin-top: 10px; }
-
-.menu ul {
-  display: flex;
-  list-style: none; }
-
-.logo {
-  width: 154.5px;
-  padding-top: 10px; }
-
-.link {
-  font-family: "Rubik", sans-serif;
-  text-decoration: none;
-  color: #4a4a4a;
-  padding: 10px 10px 13px 10px;
-  text-transform: uppercase; }
-
-.link:hover {
-  color: #14d9c4;
-  text-decoration: underline;
-  transition-delay: 1s; }
+  .header-menu {
+    margin-top: 10px; }
+  .header-menu ul {
+    display: flex;
+    list-style: none; }
+  .header-logo {
+    width: 154.5px;
+    padding-top: 10px; }
+  .header-link {
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
+    color: #4a4a4a;
+    padding: 10px 10px 13px 10px;
+    text-transform: uppercase; }
+  .header-link:hover {
+    color: #14d9c4;
+    text-decoration: underline;
+    transition-delay: 1s; }
 
 .main {
   height: 100vh;
@@ -49,24 +44,19 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /*background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;*/
   display: flex; }
-
-.hero-title {
-  padding-left: 20px;
-  font-size: 30px;
-  color: white;
-  font-family: "Rubik", sans-serif;
-  font-weight: bold;
-  width: -moz-min-content;
-  width: min-content;
-  letter-spacing: normal;
-  text-transform: capitalize;
-  display: flex;
-  align-items: center; }
+  .hero-title {
+    padding-left: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    width: -moz-min-content;
+    width: min-content;
+    letter-spacing: normal;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center; }
 
 .footer {
   background-color: #252525;
@@ -77,9 +67,8 @@
   display: flex;
   justify-content: center;
   align-items: center; }
-
-.footer-copy {
-  font-family: "Rubik", sans-serif;
-  color: #676a6d; }
+  .footer-copy {
+    font-family: "Rubik", sans-serif;
+    color: #676a6d; }
 
 /*# sourceMappingURL=main.css.map */

@@ -7,30 +7,35 @@
   background-color: $color-white;
   width: 100vw;
   padding-bottom: 13px;
-}
-.menu{
+
+&-menu{
   margin-top: 10px;
 }
-.menu ul{
+&-menu ul{
   display: flex;
   list-style: none;
 }
-.logo{
+&-logo{
   width: 154.5px;
   padding-top: 10px;
 
 }
-.link{
+&-link {
   font-family: $font-text;
   text-decoration: none;
   color: $color-grey;
   padding: 10px 10px 13px 10px;
   text-transform: uppercase;
 
-}
+
+  }
+  &-link:hover {
+    color: $color-green;  
+    text-decoration: underline;
+    transition-delay:1s;
+  }
+
+
   
-.link:hover {
-  color: $color-green;  
-  text-decoration: underline;
-  transition-delay:1s;
+
 }
