@@ -1,4 +1,4 @@
-.header{
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,53 +9,43 @@
   padding-bottom: 13px;
 
   @media screen and (min-width: 768px) {
-    display:flex;
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
     padding-bottom: 20px;
-    
   }
 
-&-menu{
-  margin-top: 10px;
-  @media screen and (min-width: 768px) {
-    
+  &-menu {
+    margin-top: 10px;
+
+    @media screen and (min-width: 768px) {
+    }
   }
-}
-&-menu ul{
-  display: flex;
-  list-style: none;
-}
-&-logo{
-  width: 154.5px;
-  padding-top: 10px;
-
-  @media screen and (min-width: 768px) {
-    width: 155px;
-    padding-left: 30px;
-
-  @media screen and (min-width: 1024px) {
-    
-    
+  &-menu ul {
+    display: flex;
+    list-style: none;
   }
-}
+  &-logo {
+    width: 154.5px;
+    padding-top: 10px;
 
-}
-&-link {
-  font-family: $font-text;
-  text-decoration: none;
-  color: $color-grey;
-  padding: 10px 10px 13px 10px;
-  text-transform: uppercase;
+    @media screen and (min-width: 768px) {
+      width: 155px;
+      padding-left: 30px;
 
-
+      @media screen and (min-width: 1024px) {
+      }
+    }
+  }
+  &-link {
+    font-family: $font-text;
+    text-decoration: none;
+    color: $color-grey;
+    padding: 10px 10px 13px 10px;
+    text-transform: uppercase;
   }
   &-link:hover {
-    color: $color-green;  
+    color: $color-green;
     text-decoration: underline;
-    transition-delay:1s;
+    transition-delay: 1s;
   }
-
-
-  
-
 }
