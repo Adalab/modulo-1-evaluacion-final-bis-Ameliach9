@@ -16,19 +16,22 @@
     .header {
       display: flex;
       flex-direction: row;
-      padding-bottom: 20px; } }
+      padding-bottom: 0px; } }
   .header-menu {
     margin-top: 10px; }
   .header-menu ul {
     display: flex;
     list-style: none; }
   .header-logo {
-    width: 154.5px;
-    padding-top: 10px; }
+    width: 154.5px; }
     @media screen and (min-width: 768px) {
       .header-logo {
         width: 155px;
-        padding-left: 30px; } }
+        margin: 20px 408px 20px 30px; } }
+  @media screen and (min-width: 768px) and (min-width: 1024px) {
+    .header-logo {
+      width: 155px;
+      margin: 20px 408px 20px 50px; } }
   .header-link {
     font-family: "Rubik", sans-serif;
     text-decoration: none;
