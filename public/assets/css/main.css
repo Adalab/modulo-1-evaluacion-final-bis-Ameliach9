@@ -12,6 +12,11 @@
   background-color: white;
   width: 100vw;
   padding-bottom: 13px; }
+  @media screen and (min-width: 768px) {
+    .header {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 20px; } }
   .header-menu {
     margin-top: 10px; }
   .header-menu ul {
@@ -20,6 +25,10 @@
   .header-logo {
     width: 154.5px;
     padding-top: 10px; }
+    @media screen and (min-width: 768px) {
+      .header-logo {
+        width: 155px;
+        padding-left: 30px; } }
   .header-link {
     font-family: "Rubik", sans-serif;
     text-decoration: none;
@@ -32,14 +41,14 @@
     transition-delay: 1s; }
 
 .main {
-  height: 100vh;
-  width: 100vw;
   margin-top: 112px;
   margin-bottom: 90px; }
+  @media screen and (min-width: 768px) {
+    .main {
+      margin-top: 100px; } }
 
 .hero {
   height: 100vh;
-  width: 100vw;
   background-image: url(/assets/images/fondo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -57,6 +66,13 @@
     text-transform: capitalize;
     display: flex;
     align-items: center; }
+    @media screen and (min-width: 768px) {
+      .hero-title {
+        font-size: 60px;
+        padding-left: 30px; } }
+    @media screen and (min-width: 768px) {
+      .hero-title {
+        padding-left: 50px; } }
 
 .footer {
   background-color: #252525;

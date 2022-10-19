@@ -1,17 +1,15 @@
-.footer{
+.footer {
   background-color: $color-black;
   height: 90px;
-  width:100vw;
-  position:fixed;
+  width: 100vw;
+  position: fixed;
   bottom: 0;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  
 
-
-&-copy{
-  font-family: $font-text;
-  color: $color-lightgrey;
-}
+  &-copy {
+    font-family: $font-text;
+    color: $color-lightgrey;
+  }
 }
