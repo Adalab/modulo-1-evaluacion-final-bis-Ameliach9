@@ -1,6 +1,6 @@
 .main {
-  margin-top: 7rem;
-  margin-bottom: 5.625rem;
+  margin-top: 7.188rem;
+  
 
   @media screen and (min-width: 768px) {
     margin-top: 6.25rem;
@@ -9,6 +9,7 @@
 
 .hero {
   height: 100vh;
+  width: 100vw;
   background-image: url(/assets/images/fondo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
