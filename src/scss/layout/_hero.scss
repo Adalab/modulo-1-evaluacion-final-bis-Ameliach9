@@ -1,9 +1,9 @@
 .main {
-  margin-top: 112px;
-  margin-bottom: 90px;
+  margin-top: 7rem;
+  margin-bottom: 5.625rem;
 
   @media screen and (min-width: 768px) {
-    margin-top: 100px;
+    margin-top: 6.25rem;
   }
 }
 
@@ -16,8 +16,8 @@
   display: flex;
 
   &-title {
-    padding-left: 20px;
-    font-size: 30px;
+    padding-left: 1.25rem;
+    font-size: 1.875rem;
     color: $color-white;
     font-family: $font-text;
     font-weight: bold;
@@ -28,12 +28,12 @@
     align-items: center;
 
     @media screen and (min-width: 768px) {
-      font-size: 60px;
-      padding-left: 30px;
+      font-size: 3.75rem;
+      padding-left: 1.875rem;
     }
 
     @media screen and (min-width: 1024px) {
-      padding-left: 50px;
+      padding-left: 3.125rem;
     }
   }
 }

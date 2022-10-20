@@ -11,32 +11,32 @@
   position: fixed;
   background-color: white;
   width: 100vw;
-  padding-bottom: 13px; }
+  padding-bottom: 0.813rem; }
   @media screen and (min-width: 768px) {
     .header {
       display: flex;
       flex-direction: row;
       padding-bottom: 0px; } }
   .header-menu {
-    margin-top: 10px; }
+    margin-top: 0.625rem; }
   .header-menu ul {
     display: flex;
     list-style: none; }
   .header-logo {
-    width: 154.5px; }
+    width: 9.656rem; }
     @media screen and (min-width: 768px) {
       .header-logo {
-        width: 155px;
-        margin: 20px 408px 20px 30px; } }
+        width: 9.688rem;
+        margin: 1.25rem 25.5rem 1.25rem 1.875rem; } }
   @media screen and (min-width: 768px) and (min-width: 1024px) {
     .header-logo {
-      width: 155px;
-      margin: 20px 408px 20px 50px; } }
+      width: 9.688rem;
+      margin: 1.25rem 25.5rem 1.25rem 3.125rem; } }
   .header-link {
     font-family: "Rubik", sans-serif;
     text-decoration: none;
     color: #4a4a4a;
-    padding: 10px 10px 13px 10px;
+    padding: 0.625rem 0.625rem 0.813rem 0.625rem;
     text-transform: uppercase; }
   .header-link:hover {
     color: #14d9c4;
@@ -44,11 +44,11 @@
     transition-delay: 1s; }
 
 .main {
-  margin-top: 112px;
-  margin-bottom: 90px; }
+  margin-top: 7rem;
+  margin-bottom: 5.625rem; }
   @media screen and (min-width: 768px) {
     .main {
-      margin-top: 100px; } }
+      margin-top: 6.25rem; } }
 
 .hero {
   height: 100vh;
@@ -58,8 +58,8 @@
   background-position: center;
   display: flex; }
   .hero-title {
-    padding-left: 20px;
-    font-size: 30px;
+    padding-left: 1.25rem;
+    font-size: 1.875rem;
     color: white;
     font-family: "Rubik", sans-serif;
     font-weight: bold;
@@ -71,15 +71,15 @@
     align-items: center; }
     @media screen and (min-width: 768px) {
       .hero-title {
-        font-size: 60px;
-        padding-left: 30px; } }
+        font-size: 3.75rem;
+        padding-left: 1.875rem; } }
     @media screen and (min-width: 1024px) {
       .hero-title {
-        padding-left: 50px; } }
+        padding-left: 3.125rem; } }
 
 .footer {
   background-color: #252525;
-  height: 90px;
+  height: 5.625rem;
   width: 100vw;
   position: fixed;
   bottom: 0;
