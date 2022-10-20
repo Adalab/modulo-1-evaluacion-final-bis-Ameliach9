@@ -5,8 +5,11 @@
   top: 0;
   position: fixed;
   background-color: $color-white;
-  width: 100vw;
+  width: 100vw; 
   box-sizing: border-box;
+  padding-top: 0.625rem;
+  
+  
 
   @media screen and (min-width: 768px) {
     height: 6.25rem;
@@ -17,7 +20,7 @@
 
   &-logo {
     width: 9.656rem;
-    padding-top: 0.625rem;
+    
 
     @media screen and (min-width: 768px) {
       width: 9.688rem;
@@ -36,6 +39,7 @@
     align-items: center;
     justify-content: center;
     list-style: none;
+    padding-bottom: 0.625rem;
 
     @media screen and (min-width: 768px) {
       padding-right: 1.875rem;

@@ -11,7 +11,8 @@
   position: fixed;
   background-color: white;
   width: 100vw;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding-top: 0.625rem; }
   @media screen and (min-width: 768px) {
     .header {
       height: 6.25rem;
@@ -19,8 +20,7 @@
       justify-content: space-between;
       padding-bottom: 0px; } }
   .header-logo {
-    width: 9.656rem;
-    padding-top: 0.625rem; }
+    width: 9.656rem; }
     @media screen and (min-width: 768px) {
       .header-logo {
         width: 9.688rem;
@@ -34,7 +34,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    list-style: none; }
+    list-style: none;
+    padding-bottom: 0.625rem; }
     @media screen and (min-width: 768px) {
       .header-menu-list {
         padding-right: 1.875rem; } }
@@ -53,10 +54,10 @@
     transition-delay: 1s; }
 
 .main {
-  margin-top: 7.188rem; }
+  padding-top: 7.188rem; }
   @media screen and (min-width: 768px) {
     .main {
-      margin-top: 6.25rem; } }
+      padding-top: 6.25rem; } }
 
 .hero {
   height: 100vh;
